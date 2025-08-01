@@ -1,0 +1,580 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:user="urn:my-scripts">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>9540</WindowHeight>
+  <WindowWidth>23040</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Aptos Narrow" x:Family="Swiss" ss:Size="11"
+    ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Aptos Narrow" x:Family="Swiss" ss:Size="11"
+    ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat ss:Format="dd\-mm\-yyyy\ hh:mm"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Aptos Narrow" x:Family="Swiss" ss:Size="11"
+    ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat ss:Format="Standard"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Aptos Narrow" x:Family="Swiss" ss:Size="11"
+    ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat ss:Format="dd\-mm\-yyyy"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s66">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Aptos Narrow" x:Family="Swiss" ss:Size="11"
+    ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s67">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Aptos Narrow" x:Family="Swiss" ss:Size="11"
+    ss:Color="#000000"/>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="dd\-mm\-yyyy"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s68">
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s69">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Aptos Narrow" x:Family="Swiss" ss:Size="11"
+    ss:Color="#000000"/>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s70">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Aptos Narrow" x:Family="Swiss" ss:Size="11"
+    ss:Color="#000000"/>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="Standard"/>
+   <Protection/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="ConsultaSaldosMovimentos">
+  <Table ss:ExpandedColumnCount="10" ss:ExpandedRowCount="55" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="14.4">
+   <Column ss:Width="80.400000000000006"/>
+   <Column ss:Width="82.8"/>
+   <Column ss:Width="60"/>
+   <Column ss:AutoFitWidth="0" ss:Width="352.8"/>
+   <Column ss:Width="80.400000000000006" ss:Span="2"/>
+   <Column ss:Index="8" ss:Width="120"/>
+   <Column ss:Width="139.80000000000001"/>
+   <Column ss:Width="79.800000000000011"/>
+   <Row>
+    <Cell><Data ss:Type="String">Conta:</Data></Cell>
+    <Cell><Data ss:Type="String">000807431396</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Moeda:</Data></Cell>
+    <Cell><Data ss:Type="String">EUR</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Data:</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2025-08-01T00:03:08.000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Contabilístico:</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">1037.01</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Cativo:</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Disponível:</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">1037.01</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Autorizado:</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">1037.01</Data></Cell>
+   </Row>
+   <Row ss:Index="10" ss:AutoFitHeight="0" ss:Height="13.950000000000001">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Data Operação</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Data Valor</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Tipo</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Descrição</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Débito</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Crédito</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Saldo Controlo</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-07-31T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-07-31T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">TRF</Data></Cell>
+    <Cell><Data ss:Type="String">TRF IMEDIATA SEPA+ DE LUIS GUIMARAES LOBATO CATARINO</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">15</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">1037.01</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-07-31T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-07-31T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">TRF</Data></Cell>
+    <Cell><Data ss:Type="String">TRF IMEDIATA SEPA+ DE MIGUEL GONCALVES PORTUGUES DA FONSECA</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">30</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">1022.01</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-07-31T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-07-31T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">TRF</Data></Cell>
+    <Cell><Data ss:Type="String">TRF IMEDIATA SEPA+ DE ANTONIO NUNO FRADE PIRES PEREIRA BAPTI</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">15</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">992.01</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-07-31T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-07-31T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">TRF</Data></Cell>
+    <Cell><Data ss:Type="String">TRF IMEDIATA SEPA+ DE VASCO RIBEIRO TAMEN</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">15</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">977.01</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-07-31T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-07-31T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">CRD</Data></Cell>
+    <Cell><Data ss:Type="String">TRF CRED SEPA+ DE MARTIM MARIA PERES FERREIRA BAPTISTA</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">30</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">962.01</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-07-31T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-07-31T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">CRD</Data></Cell>
+    <Cell><Data ss:Type="String">TRF CRED SEPA+ DE MIGUEL ONEILL DE HEREDIA</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">932.01</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-07-31T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-07-31T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">CRD</Data></Cell>
+    <Cell><Data ss:Type="String">TRF CRED SEPA+ DE SARA BESSE CORDOVIL MATOS</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">75</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">928.01</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-07-31T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-07-31T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">CRD</Data></Cell>
+    <Cell><Data ss:Type="String">TRF CRED SEPA+ DE SEBASTIAO VAZ PINTO LIBANO MONTEIRO</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">853.01</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-07-31T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-07-31T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">CRD</Data></Cell>
+    <Cell><Data ss:Type="String">TRF CRED SEPA+ DE SEBASTIAO VAZ PINTO LIBANO MONTEIRO</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">30</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">849.01</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-07-31T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-07-31T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">CRD</Data></Cell>
+    <Cell><Data ss:Type="String">TRF CRED SEPA+ DE BARBARA VASCONCELOS FERRO RIBEIRO</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">819.01</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-07-30T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-07-30T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">TRF</Data></Cell>
+    <Cell><Data ss:Type="String">TRF IMEDIATA SEPA+ DE CAROLINA MARIANA N O'NEILL ADRIAO</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">60</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">815.01</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-07-30T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-07-30T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">TRF</Data></Cell>
+    <Cell><Data ss:Type="String">TRF IMEDIATA SEPA+ DE ANTONIO PEDRO C SACADURA VIEIRA MONTEI</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">60</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">755.01</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-07-30T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-07-30T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">TRF</Data></Cell>
+    <Cell><Data ss:Type="String">TRF IMEDIATA SEPA+ DE RITA MARIA MONICA SACADURA MONTEIRO RI</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">695.01</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-07-30T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-07-30T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">TRF</Data></Cell>
+    <Cell><Data ss:Type="String">TRF IMEDIATA SEPA+ DE CAROLINA MARIANA N O'NEILL ADRIAO</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">691.01</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-07-30T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-07-30T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">TRF</Data></Cell>
+    <Cell><Data ss:Type="String">TRF IMEDIATA SEPA+ DE CARLOTA NOLASCO HOLSTEIN GUEDES</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">60</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">687.01</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-07-28T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-07-28T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">TRF</Data></Cell>
+    <Cell><Data ss:Type="String">TRF IMEDIATA SEPA+ DE JOSE MIGUEL C A SAMPAIO FONTES</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">45</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">627.01</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-07-25T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-07-25T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">TRF</Data></Cell>
+    <Cell><Data ss:Type="String">TRF IMEDIATA SEPA+ DE MARIA DA LUZ ROQUE DE PINHO MORAIS LEI</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">30</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">582.01</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s68">
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2025-07-25T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="DateTime">2025-07-25T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">TRF</Data></Cell>
+    <Cell><Data ss:Type="String">TRF IMEDIATA SEPA+ DE MARIA HELENA FERRO RIBEIRO</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">15</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">552.01</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-07-25T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-07-25T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">TRF</Data></Cell>
+    <Cell><Data ss:Type="String">TRF IMEDIATA SEPA+ DE RITA SILVA PEREIRA CASTRO GUIMARAES</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">60</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">537.01</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-07-24T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-07-24T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">TRF</Data></Cell>
+    <Cell><Data ss:Type="String">TRF IMEDIATA SEPA+ DE ANA BETHENCOURT RODRIGUES REIS</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">45</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">477.01</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-07-24T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-07-24T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">TRF</Data></Cell>
+    <Cell><Data ss:Type="String">TRF IMEDIATA SEPA+ DE TOMAS MARIA L VIANA MARCAL PUJOL</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">15</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">432.01</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-07-24T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-07-24T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">TRF</Data></Cell>
+    <Cell><Data ss:Type="String">TRF IMEDIATA SEPA+ DE GONCALO MARIA LOUREIRO JOSE MELLO</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">15</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">417.01</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-07-24T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-07-24T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">TRF</Data></Cell>
+    <Cell><Data ss:Type="String">TRF IMEDIATA SEPA+ DE FILIPE MARIA L V MARCAL PUJOL</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">15</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">402.01</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-07-24T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-07-24T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">TRF</Data></Cell>
+    <Cell><Data ss:Type="String">TRF IMEDIATA SEPA+ DE MARTA VIEIRA MONTEIRO RIBEIRO FERREIRA</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">387.01</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-07-23T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-07-23T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">TRF</Data></Cell>
+    <Cell><Data ss:Type="String">TRF IMEDIATA SEPA+ DE MARIA VIEIRA MONTEIRO RIBEIRO FERREIRA</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">383.01</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-07-23T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-07-23T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">CRD</Data></Cell>
+    <Cell><Data ss:Type="String">TRF CRED SEPA+ DE DR   SOFIA MELO GOMES POSSER DE ANDRADE</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">30</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">379.01</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-07-22T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-07-22T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">TRF</Data></Cell>
+    <Cell><Data ss:Type="String">TRF CRED INTRAB DE ANA SOFIA LOPES TAVARES DA - Sofia Silva</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">60</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">349.01</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-07-22T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-07-22T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">TRF</Data></Cell>
+    <Cell><Data ss:Type="String">TRF IMEDIATA SEPA+ DE SOFIA ONEILL HEREDIA ALMEIDA MENDES</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">60</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">289.01</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-07-21T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-07-21T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">TRF</Data></Cell>
+    <Cell><Data ss:Type="String">TRF IMEDIATA SEPA+ DE GONCALO M PITEIRA DOROANA ALMEIDA</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">60</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">229.01</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-07-21T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-07-21T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">TRF</Data></Cell>
+    <Cell><Data ss:Type="String">TRF IMEDIATA SEPA+ DE JOSE MANUEL COSTA MARCAL ROUBAUD Y PUJ</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">45</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">169.01</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-07-20T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-07-20T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">TRF</Data></Cell>
+    <Cell><Data ss:Type="String">TRF IMEDIATA SEPA+ DE MARGARIDA RIBEIRO PAULA</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">15</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">124.01</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-07-20T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-07-20T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">TRF</Data></Cell>
+    <Cell><Data ss:Type="String">TRF IMEDIATA SEPA+ DE CAMILA GENTIL BERGER RAMIREZ GARCIA</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">109.01</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-07-20T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-07-20T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">TRF</Data></Cell>
+    <Cell><Data ss:Type="String">TRF IMEDIATA SEPA+ DE CAMILA GENTIL BERGER RAMIREZ GARCIA</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">15</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">105.01</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-07-18T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-07-18T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">TRF</Data></Cell>
+    <Cell><Data ss:Type="String">TRF IMEDIATA SEPA+ DE MARTIM MARIA LOUREIRO VIANA MARCAL PUJ</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">15.01</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">90.01</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-07-18T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-07-18T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">TRF</Data></Cell>
+    <Cell><Data ss:Type="String">TRF IMEDIATA SEPA+ App 587792688 PARA Vasco Tamen</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">-150</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">75</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-07-17T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-07-17T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">TRF</Data></Cell>
+    <Cell><Data ss:Type="String">TRF IMEDIATA SEPA+ DE LOURENCO RIBEIRO TAMEN</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">15</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">225</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-07-17T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-07-17T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">CRD</Data></Cell>
+    <Cell><Data ss:Type="String">TRF CRED SEPA+ DE DR   RICARDO JORGE FERRO RIBEIRO</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">15</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">210</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-07-16T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-07-16T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">TRF</Data></Cell>
+    <Cell><Data ss:Type="String">TRF IMEDIATA SEPA+ DE DIOGO FRANCISCO NEVES VARGAS</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">15</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">195</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-07-16T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-07-16T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">TRF</Data></Cell>
+    <Cell><Data ss:Type="String">TRF IMEDIATA SEPA+ DE TERESA AMARO RIBEIRO</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">15</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">180</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-07-16T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-07-16T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">TRF</Data></Cell>
+    <Cell><Data ss:Type="String">TRF IMEDIATA SEPA+ DE JOANA AMARO RIBEIRO MADEIRA</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">30</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">165</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-07-16T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-07-16T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">TRF</Data></Cell>
+    <Cell><Data ss:Type="String">TRF IMEDIATA SEPA+ DE ANA CRISTINA M PIMENTEL MORAIS SARMENT</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">60</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">135</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-07-16T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-07-16T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">TRF</Data></Cell>
+    <Cell><Data ss:Type="String">TRF IMEDIATA SEPA+ DE RITA MARIA MONICA SACADURA MONTEIRO RI</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">60</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">75</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-07-16T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-07-16T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">TRF</Data></Cell>
+    <Cell><Data ss:Type="String">TRF IMEDIATA SEPA+ DE LOURENCO RIBEIRO TAMEN</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">15</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">15</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-07-02T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2025-07-02T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">TRF</Data></Cell>
+    <Cell><Data ss:Type="String">TRF IMEDIATA SEPA+ App 584581765 PARA Vasco Tamen</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">-50</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Selected/>
+   <TopRowVisible>2</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>20</ActiveRow>
+     <ActiveCol>7</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

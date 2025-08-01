@@ -1,0 +1,40 @@
+services:
+  - type: web
+    name: ticket-validator
+    env: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:app
+    envVars:
+      - key: BASE_VALIDATION_URL
+        value: https://ticket-validator.onrender.com/validate
+      - key: GUEST_LIST_CSV_PATH
+        value: /persistent/processed_guest_list.csv
+      - key: TOKEN_CSV_PATH
+        value: /persistent/guest_tokens.csv
+      - key: SCAN_LOG_PATH
+        value: /persistent/scan_log.csv
+      - key: GOOGLE_SHEET_FILE_ID
+        value: 1iEOePIWgGahwnJGt1iyptEiyG5BvOzRhyn0MQ1FD8_Q
+      - key: QR_CODE_PATH
+        value: /persistent/qr_codes
+      - key: PDF_PATH
+        value: /persistent/tickets
+      - key: IMAGES_PATH
+        value: /persistent/images
+      - key: SMTP_HOST
+        value: smtp.gmail.com
+      - key: SMTP_PORT
+        value: 465
+      - key: SMTP_USER
+        value: geracaoarrabida@gmail.com
+      - key: SMTP_PASSWORD
+        value: your_app_password_here
+      - key: FROM_EMAIL
+        value: geracaoarrabida@gmail.com
+      - key: FROM_NAME
+        value: Geração Arrábida
+    disk:
+      name: guest-persistent-disk
+      mountPath: /persistent
+      sizeGB: 1

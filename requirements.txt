@@ -1,0 +1,9 @@
+pandas
+openpyxl
+python-dotenv
+fpdf
+qrcode
+pillow
+gunicorn
+
+# pip install -r requirements.txt
