@@ -4,7 +4,7 @@ services:
     env: python
     plan: free
     buildCommand: pip install -r requirements.txt
-    startCommand: gunicorn src.app:app
+    startCommand: gunicorn app:app
     envVars:
       - key: BASE_VALIDATION_URL
         value: https://ticket-validator.onrender.com/validate
