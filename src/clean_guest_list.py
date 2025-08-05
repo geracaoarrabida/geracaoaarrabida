@@ -80,7 +80,9 @@ for idx, row in df.iterrows():
                 "complete_name": complete_name,
                 "email_registration": email_registration,
                 "supporting_document": supporting_document,
-                "partition_date": today_str
+                "partition_date": today_str,
+                "used": False,
+                "sent": False
             })
 
 # === Append new rows to CSV ===
