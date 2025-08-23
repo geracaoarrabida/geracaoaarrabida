@@ -63,7 +63,7 @@ def send_email_with_ticket(to_email, main_name, pdf_path):
     html = f"""
     <p>Olá {main_name},</p>
 
-    <p>Segue em anexo o(s) teu(s) bilhete(s) para a <strong>Festa da Arrábida 2025</strong>.</p>
+    <p>Caso tenhas perdido os bilhetes, segue em anexo o(s) teu(s) bilhete(s) para a <strong>Festa da Arrábida 2025</strong>.</p>
 
     <ul>
       <li><strong>Data do evento: </strong>23 de Agosto (23/08/2025)</li>
@@ -71,6 +71,8 @@ def send_email_with_ticket(to_email, main_name, pdf_path):
       <li><strong>Local: </strong><a href="https://maps.app.goo.gl/MqseXrKQEGVgx3KS9">Restaurante Golfinho - Praia do Creiro</a></li>
       <li>Inclui 1 Bebida (refrigerante, cerveja, sidra ou copo de vinho) e 1 sandwich de porco no espeto</li>
     </ul>
+
+    <p><strong>ATENÇÃO: APENAS SERÁ ACEITE PAGAMENTO EM NUMERÁRIO (DINHEIRO FÍSICO)</strong>!</p>
 
     <p>Agradecemos a tua presença e apoio. Até breve!<br />
     Geração Arrábida</p>

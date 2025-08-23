@@ -5,7 +5,7 @@ date,name,email,token
 2025-07-16,Boli Ferreira,mail@ribeiroferreira.com,73f2e3ad-18ed-415a-8698-e7e6a503a0cd
 2025-07-16,Maria Ferreira,mariavmrf@gmail.com,dd49fe24-5dd1-4a15-8236-9ec911c2552d
 2025-07-16,Sofia Ferreira,sofiavmrf@gmail.com,a27e411b-7bc0-4895-a8d1-61f0108f9b59
-2025-07-16,Cristina sarmento,anaesarmento@gmail.com,fff79046-ae80-4a58-898d-dc5213118dae
+2025-07-16,Cristina Sarmento,anaesarmento@gmail.com,05676284-6cbb-4a0a-86a1-a21cefabdbd0
 2025-07-16,Ana Sarmento,anaesarmento@gmail.com,336bcdb5-07fa-4de7-a37d-b4ca00210e66
 2025-07-16,Manecas Sarmento,anaesarmento@gmail.com,d96e5777-5b02-4591-b4cd-1ab9239e52c2
 2025-07-16,Manuel Sarmento,morais881@gmail.com,a1fa4b06-ab36-4e3d-b7e5-0e886339865b
@@ -22,7 +22,7 @@ date,name,email,token
 2025-07-21,Sofia Pujol,martimmarcal.pujol@gmail.com,d9992878-3935-4d0c-8f0b-50989a281fa7
 2025-07-21,José Pujol,martimmarcal.pujol@gmail.com,0b5e74dd-fb80-4b91-b6d0-d9332c162a46
 2025-07-21,José Junior,martimmarcal.pujol@gmail.com,c89c7100-4ebf-4c3b-ad5a-ea79e9c5144f
-2025-07-21,Gonçalo Piteira,goncalopiteiradoroana@gmail.com,a85c296f-865c-4c8a-961c-5bf445a67bd6
+2025-07-21,Gonçalo Piteira,goncalopiteriadoroana@gmail.com,a6a4081c-d57d-484b-9008-f0623f5c7de9
 2025-07-21,Cristina Piteira,cristinapiteira@mipin.net,a3c39e74-8fd4-44b5-af8b-4ffa7be6182e
 2025-07-21,Guilherme Piteira,jose.doroana@gmail.com,1d0c5857-41d5-4ecb-884f-8d95dc1e5e47
 2025-07-21,Gonçalo Correia,gocorreia@gmail.com,a5817aa3-a8ff-4392-95af-ba3c4301d041
@@ -34,6 +34,7 @@ date,name,email,token
 2025-07-22,Maria Coelho,pcoelho.maria@gmail.com,0a29b742-1b87-4c98-ac79-6998e8b71bd7
 2025-07-22,Lino Coelho,l.pereiracoelho@gmail.com,eca16359-50ea-4ac5-b7d3-b9d744122dc2
 2025-07-22,Matilde Coelho,matilde.pereiracoelho@gmail.com,ae71cc39-70f7-434a-909b-e3ae7149a1ed
+2025-07-22,Mariana Oliveira,marianaboliveira001@gmail.com,6262caba-e37e-4a72-9ea6-82ecd6f8865f
 2025-07-23,Joao Pedro,joaomontes@yahoo.com,e2517ec9-ae0d-428b-8975-b228396f1541
 2025-07-23,Filipa Montes,filipa.barata@pt.andersen.com,9536e8e1-9fed-4c8c-a749-7db0bc5b91c3
 2025-07-23,Salvador Montes,salvasmontes05@gmail.com,fe88a2e6-5020-4225-b082-fccdfd7fc3aa
@@ -83,7 +84,7 @@ date,name,email,token
 2025-07-30,Xavier Matos,saperes@gmail.com,a281bd70-1a74-438f-8a00-cf48ffdf5658
 2025-07-30,Pedro Vieira,casasulmar@gmail.com,d2c8bd49-0606-46b7-aca0-a7a468a6bb92
 2025-07-30,Raquel Vieira,casasulmar@gmail.com,e597ed5b-fb53-4a96-a65b-d5891bb5e6fa
-2025-07-30,Duarte Monica,Duarteosmonica@gmail.com,cc09f50f-5070-41b5-9af9-99be41d5e72d
+2025-07-30,Duarte Monica,duarteosmonica@gmail.com,2305355f-19e9-4aad-a825-b6a92d71e61b
 2025-07-30,Isabel Monica,Isabelferreiradelima@gmail.com,401bfa7a-79d1-48d6-9b48-970655279148
 2025-07-30,António Monteiro,apvmonteiro@gmail.com,4bdfb810-bdea-470b-90ef-59c9fb636573
 2025-07-30,Alexandra Monteiro,asaravia70@gmail.com,dcefe6e1-211c-488e-b7b8-32a4d0656c52
@@ -105,7 +106,6 @@ date,name,email,token
 2025-07-31,Teresa Pinho,trpinho@gmail.com,b996f62e-a9f8-4e2c-9b16-82d954347786
 2025-07-31,Miguel Assis,miguel.assis@voqin.com,38ea189b-d48a-492d-bed3-67f83e800569
 2025-07-31,Luis Catarino,luiscatarino15@gmail.com,380ec420-5390-474f-9fea-43d7d1863896
-2025-07-22,Mariana Oliveira,marianaboliveira001@gmail.com,6262caba-e37e-4a72-9ea6-82ecd6f8865f
 2025-08-01,Sofia Garrett,sofia.a.garrett@gmail.com,40941999-e8d6-42a2-8408-d1f12547da77
 2025-08-01,Teresa Freire,teresinha.n.freire@gmail.com,dd3e42ea-b058-4497-9ba8-0bc072ad9d8c
 2025-08-01,Leonor Freire,leonorgarrett06@gmail.com,60b24207-ba30-4212-9004-b793d2c0d3bb
@@ -158,6 +158,7 @@ date,name,email,token
 2025-08-05,Afonso Bana,sarmentini@gmail.com,e13eaedb-7569-4b4c-bd58-7aae6f7caefd
 2025-08-05,Francisca Bana,sarmentini@gmail.com,309345ba-f608-4d2b-8d44-e62564e62df8
 2025-08-05,Ana Sarmento,a.sarmento1974@gmail.com,7a3c6d62-8ebe-401e-a548-f1888479ec73
+2025-08-05,Nuno Cepeda,a.sarmento1974@gmail.com,22cb31fd-a872-4855-9161-8687d707cd1f
 2025-08-05,Careca,carlosferroribeiro@gmail.com,3369f98a-68f1-4849-8fd5-1bab11b1f475
 2025-08-05,Manuel Marçal,manuel.marcal@gmail.com,90603a71-73bb-4170-9ca6-f655daf6df48
 2025-08-05,Matilde Marcal,matildecid@gmail.com,bf316b0e-e2c6-4b38-b242-80b1093f379e
@@ -170,6 +171,7 @@ date,name,email,token
 2025-08-05,J. 2,jp.carpinteiro.jp@gmail.com,8a4f8a20-9bfc-493b-82c5-05ef29a9e89d
 2025-08-05,J. 3,jp.carpinteiro.jp@gmail.com,1a03f887-bdc0-40de-ab39-8857feef1d19
 2025-08-05,J. 4,jp.carpinteiro.jp@gmail.com,1bd043d5-a3b9-4858-bd4d-6eec26e21145
+2025-08-05,Paula Gonzaga,pgonzagamachado@gmail.com,9fe378e8-e688-4697-91ee-7bf8ca8b2046
 2025-08-05,J. 1,pilarfmontes@gmail.com,2e3680d2-9090-4a1f-b65a-f11335789e86
 2025-08-05,J. 2,pilarfmontes@gmail.com,d4b4f52c-c7ba-4c83-b1bc-cd55222222e2
 2025-08-05,J. 3,pilarfmontes@gmail.com,c0ed7fc8-c48e-4b7e-a0c4-287b5b9c3c80
@@ -182,14 +184,13 @@ date,name,email,token
 2025-08-06,Maria Moraes,maria.vpmanteromoraes@gmail.com,382e05f3-6403-4c2e-a087-bd0fb6f28851
 2025-08-06,Nuno Coordeiro,nuno.jacordeiro@gmail.com,f1e9f346-8424-40ce-8e09-c1eab55c1f7d
 2025-08-06,José Sampaio,josemaria.csampaio@gmail.com,2aa09309-80f8-45a5-9ad0-e67fd6cc0510
-2025-08-07,Madalena Cruz,madalenafortunascruz@gmail.com,0dba70ee-2d8b-4f1c-894f-bb6c5e66bc65
-2025-08-07,Beatriz Cabreira,beatrizcabreira@gmail.com,e78a08ac-1f76-4598-a364-c3a667c63b2f
 2025-08-07,Miguel Herédia,moheredia@gmail.com,e1153bb9-cd73-433d-a13e-1be8f481c1c7
 2025-08-07,Maria Guedes,moheredia@gmail.com,1895acbf-ebae-4cf6-a29c-d00609d63790
-2025-08-05,Paula Gonzaga,pgonzagamachado@gmail.com,9fe378e8-e688-4697-91ee-7bf8ca8b2046
 2025-08-08,Filipa Fonseca,filipacunhafonseca@gmail.com,b6192760-4f02-4078-972a-18537c2b8b53
 2025-08-08,Mário Fonseca,filipacunhafonseca@gmail.com,9b30096e-03da-4d61-a5d7-fa60d5952c30
 2025-08-09,Catarina Diz,catarinadizz@gmail.com,e7c9894c-f796-4d42-a573-698aa4a109c7
+2025-08-09,Luís Nunes,catarinadizz@gmail.com,4a59ca55-2536-4dd5-a147-07149661f450
+2025-08-09,Mariana Cerejeira,catarinadizz@gmail.com,5ac811f9-8eb6-48a0-a6a5-f19b423e622d
 2025-08-09,Paula Abreu,zemaria3740@gmail.com,607ff920-8247-43f2-b5f6-7d055f22d754
 2025-08-09,Felipa Pujol,fmpujolc@gmail.com,9f322146-bff0-489b-a297-04ea758fa028
 2025-08-09,João Ramos,fmpujolc@gmail.com,3fb2910a-b5eb-45ee-8634-3cd7a5140bc1
@@ -199,17 +200,22 @@ date,name,email,token
 2025-08-11,Filipa Barbosa,filipabarbosa704@gmail.com,0e9dd7c5-b26d-4a2d-bf5d-91fcc40d5b73
 2025-08-11,Teresa Santos,teresa.santos219@gmail.com,c4cc2f8e-ba8d-499b-b7c1-f15ef87278db
 2025-08-11,Maria Rego,maria_cunha_rego@hotmail.com,6b2d7df6-9a42-42b4-8521-ff6b25317925
+2025-08-11,Madalena Giannone,madalenagiannone@gmail.com,79e3021f-f7f0-4daa-bea1-dd031a08d57d
+2025-08-11,Frederico Peres,flcastro@argopartners.pt,c603247a-dbf0-4b70-9a4f-ecb52f44bcb6
+2025-08-11,Teresa Piano,flcastro@argopartners.pt,369b625f-2dd6-435e-ba30-001886207b21
 2025-08-13,Amália Ribeiro,amaliaamaroribeiro@gmail.com,e0c76954-bf18-4abd-9ae4-9eac67c3030a
 2025-08-13,António Ribeiro,amaliaamaroribeiro@gmail.com,59a75ad3-1050-4545-8f90-548ae3264ac4
 2025-08-13,Diogo Mendes,vasco.tamen@gmail.com,5e62078d-9cba-467c-bec9-b5889b5b9978
 2025-08-13,Rita Pinto,vasco.tamen@gmail.com,6e2a67d6-0556-4c8a-b880-f91a2a06490a
-2025-08-11,Madalena Giannone,madalenagiannone@gmail.com,79e3021f-f7f0-4daa-bea1-dd031a08d57d
-2025-07-21,Gonçalo Piteira,goncalopiteriadoroana@gmail.com,a6a4081c-d57d-484b-9008-f0623f5c7de9
-2025-08-05,Nuno Cepeda,a.sarmento1974@gmail.com,22cb31fd-a872-4855-9161-8687d707cd1f
 2025-08-13,Francisco Ramos,inboxfrancisco@gmail.com,dd271fb6-fa0e-457f-a883-29d521f4d0d0
 2025-08-13,Rita Gomes,inboxfrancisco@gmail.com,646d2821-4495-462f-af52-685a460b9e1f
 2025-08-13,Dulce Sousa,inboxfrancisco@gmail.com,f540e895-a31b-430f-b422-8b65ffc72451
 2025-08-13,Francisco Venêncio,inboxfrancisco@gmail.com,9da99a03-a1b5-4331-8000-626ceb5ea398
+2025-08-13,Gonçalo Martins,g@bbkw.eu,f750cb13-1cab-4269-9aa2-bd33f066cb96
+2025-08-13,Joana Martorell,g@bbkw.eu,2a6b6675-ca27-482e-acc9-26c6fe5407a0
+2025-08-13,Alice Martins,g@bbkw.eu,0bdf15c5-9822-4b97-8792-e5db43515bb6
+2025-08-13,Rodrigo Martins,g@bbkw.eu,767a8616-e3f8-4206-97bc-a90fa3042281
+2025-08-13,Manuel Martins,g@bbkw.eu,ddaa3a48-559b-4da1-a82d-c71adb76ef5b
 2025-08-13,Ricardo Martorell,ricardo.martorell.antao@gmail.com,7c89c0d0-1f8b-4e64-af0b-1490ca869770
 2025-08-14,Paulo Silva,67psilva@gmail.com,b614ebb7-8b0f-46dd-9e81-b52e30167860
 2025-08-14,Patricia Liz,patricia.demelolizdasilva@insead.edu,cadb30ea-11ac-4ea6-b8a5-6bf436554a24
@@ -218,8 +224,8 @@ date,name,email,token
 2025-08-14,Jéssica,99bsilva@gmail.com,f75ffc5a-44d5-4c4e-8515-52335fa7d3c0
 2025-08-14,Rui Ciríaco,ruiciriaco@hotmail.com,09003174-a139-421a-bea6-c69af2360c15
 2025-08-14,Madalena Benavente,madalena.benavente@sapo.pt,b9cc186e-b639-4ced-981e-34c96e2e6037
-2025-08-14,Inês piteira,goncalopiteiradoroana@gmail.com,49712d5d-8050-4ac0-92b3-8c78e624fdd0
 2025-08-14,Maria Folque,madalena.benavente@sapo.pt,59b9fba0-0d3c-47eb-a5ba-fd072c6d1cab
+2025-08-14,Inês Piteira,goncalopiteriadoroana@gmail.com,56ea2bab-1fcd-4a6b-967b-db18f00e3cd0
 2025-08-15,Sebastião Spínola,sebastiao.spinola1@gmail.com,013e5a3e-b182-4cdc-944f-781913a423e5
 2025-08-15,Francisca Castro,franciscamellocastro@gmail.com,831968d2-65e4-454a-a95e-ae4e754d5509
 2025-08-15,Tomás Spínola,tomas.spinola@gmail.com,476352f8-97cf-4d8e-9119-562e2718d699
@@ -238,3 +244,18 @@ date,name,email,token
 2025-08-20,Maria Calisto,nanascalisto12@outlook.pt,0a68e39e-5f7e-4ff7-85c4-d4b83d4c9d40
 2025-08-20,Madre Calisto,nanascalisto12@outlook.pt,9d45277a-a92a-4534-9ce3-18f151b9dc26
 2025-08-20,Ana Calisto,nanascalisto12@outlook.pt,497f0c6a-9dba-41d6-a71e-5167fe7b5f42
+2025-08-22,Maria Pinto,mariaportasvazpinto@gmail.com,bebf2e36-b346-4c74-90a9-1eeda62b0418
+2025-08-22,Madalena Gomes,madalenasadabandeira@gmail.com,61f62897-2639-4f51-a1af-e616e137cae0
+2025-08-22,Rui Gomes,madalenasadabandeira@gmail.com,68d1f941-205f-46d5-86c2-85d801ffb264
+2025-08-22,Luis Figueiredo,lafigueiredo24@gmail.com,386f90ea-ab76-4711-bcec-7b90b18a6da8
+2025-08-22,Leonor Marcos,leonorcmarcos@gmail.com,935bec2a-7c06-4d73-9bb5-33dff47be3d1
+2025-08-22,António Andrade,antoniomariaandrade@gmail.com,a2285dec-242a-4470-9aea-c5b9ac2dc15b
+2025-08-22,Nuno Lopes,nunocastelaabecasis@gmail.com,2bf9e1f0-6ae3-4d58-ad33-6253dcda294f
+2025-08-22,Manel Palma,manuelnobrepalma793@gmail.com,8f2e9cb3-1ad4-46fc-92b6-7d4d8066d203
+2025-08-22,Mariana Vasconcelos,marianacvasconcelos7@gmail.com,02cc6fce-9e4b-4dd9-8cdf-be0877880276
+2025-08-22,Francisco Mateus,franciscomariamateus.95@gmail.com,1e2c4165-b0b2-4483-9d58-b4a7a9f290dc
+2025-08-22,António Quinta,antonio.maria.quinta@gmail.com,374a2e88-8893-4619-9517-b612c2123326
+2025-08-22,Madalena Guedes,madapguedes01@gmail.com,ea41e016-e9c2-4fcc-8429-f7d8f743461f
+2025-08-22,José Costa,josepedrolcosta@gmail.com,b65b843e-447d-48c1-8543-15064e680552
+2025-08-22,Joana Lopes,josepedrolcosta@gmail.com,32c0ad45-c063-462f-b900-74b39c31a7b4
+2025-08-22,Rita Lima,vasco.tamen@gmail.com,95612a4e-221e-4497-bfba-c0865251b52a

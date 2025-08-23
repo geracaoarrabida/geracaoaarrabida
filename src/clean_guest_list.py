@@ -50,7 +50,7 @@ today_str = date.today().isoformat()
 for idx, row in df.iterrows():
     row_number = idx + 2
     submission_date = pd.to_datetime(row["Carimbo de data/hora"]).date()
-    email_registration = row["Endereço de email"]
+    email_registration = str(row["Endereço de email"])
     supporting_document = row.get("Submeta aqui o comprovativo de pagamento referente ao total de bilhetes")
 
     if pd.isna(supporting_document) or not str(supporting_document).strip():
