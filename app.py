@@ -1,12 +1,13 @@
-from flask import Flask, request, render_template_string, redirect, make_response
-import pandas as pd
-import sqlite3
+import sys
 import os
-from datetime import datetime
+import pandas as pd
 
-# === Config ===
-GUEST_LIST_CSV_PATH = "guest_list.csv"
-DB_PATH = "scan_log.db"
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+from src.utils import *
+
+from flask import Flask, request, render_template_string, redirect, make_response
+import sqlite3
+
 
 app = Flask(__name__)
 
