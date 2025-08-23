@@ -24,7 +24,7 @@ IMAGES_PATH = os.getenv("IMAGES_PATH", "/persistent/images")
 # File Paths
 GOOGLE_SHEET_FILE_ID = os.getenv("GOOGLE_SHEET_FILE_ID")
 GUEST_LIST_CSV_PATH = os.getenv("GUEST_LIST_CSV_PATH", "/persistent/processed_guest_list.csv")
-DB_PATH = os.getenv("DB_PATH", "scan_log.db")
+DB_PATH = os.getenv("DB_PATH", "/persistent/scan_log.db")
 TOKEN_CSV_PATH = os.getenv("TOKEN_CSV_PATH", "/persistent/guest_tokens.csv")
 SCAN_LOG_PATH = os.getenv("SCAN_LOG_PATH", "/persistent/scan_log.csv")
 
