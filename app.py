@@ -54,23 +54,42 @@ def home():
         <div id="reader"></div>
 
         <script>
+            let html5QrCode;
+
+            function extractToken(decodedText) {{
+                try {{
+                    const url = new URL(decodedText);
+                    return url.searchParams.get("token") || decodedText;
+                }} catch (e) {{
+                    return decodedText;
+                }}
+            }}
+
             function startScan() {{
                 const reader = document.getElementById("reader");
                 reader.style.display = "block";
-                const html5QrCode = new Html5Qrcode("reader");
+
+                if (!html5QrCode) {{
+                    html5QrCode = new Html5Qrcode("reader");
+                }} else {{
+                    html5QrCode.stop().then(() => {{
+                        html5QrCode.clear();
+                    }}).catch(() => {{}});
+                }}
 
                 html5QrCode.start(
                     {{ facingMode: "environment" }},
-                    {{ fps: 10, qrbox: 250 }},
+                    {{ fps: 10, qrbox: 300 }},
                     (decodedText, decodedResult) => {{
+                        const token = extractToken(decodedText);
                         html5QrCode.stop().then(() => {{
-                            window.location.href = "/validate?token=" + encodeURIComponent(decodedText);
+                            window.location.href = "/validate?token=" + encodeURIComponent(token);
                         }}).catch(err => console.error("Stop failed", err));
                     }},
                     (errorMessage) => {{
                         // Ignore scanning errors
                     }}
-                ).catch(err => console.error("Start failed", err));
+                ).catch(err => console.error("Camera start failed:", err));
             }}
         </script>
     </body>
@@ -114,7 +133,7 @@ def validate():
             df.to_csv(GUEST_LIST_CSV_PATH, index=False)
             status = "<h1>✅ Valid Ticket</h1>"
 
-        # Log the scan
+        # Log scan
         scan_entry = pd.DataFrame([{
             "timestamp": datetime.now().isoformat(timespec='seconds'),
             "token": token,
@@ -128,7 +147,7 @@ def validate():
         else:
             scan_entry.to_csv(SCAN_LOG_PATH, index=False)
 
-        # Recent scan history
+        # Show recent history
         try:
             history = pd.read_csv(SCAN_LOG_PATH).tail(10)
             history_html = history.to_html(index=False)
