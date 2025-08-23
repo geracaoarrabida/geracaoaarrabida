@@ -7,7 +7,7 @@ import pandas as pd
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from src.utils import *
 
-from flask import Flask, request, render_template_string, redirect, make_response
+from flask import Flask, request, render_template_string
 import sqlite3
 from datetime import datetime
 
@@ -72,20 +72,8 @@ init_db()
 # =======================
 # Routes
 # =======================
-@app.route("/set_name", methods=["POST"]) 
-def set_name():
-    name = request.form.get("name")
-    resp = make_response(redirect("/"))
-    resp.set_cookie("scanner_name", name, max_age=60 * 60 * 24 * 30)
-    return resp
-
-
 @app.route("/validate")
 def validate():
-    scanned_by = request.cookies.get("scanner_name")
-    if not scanned_by:
-        return "<h1>Precisa definir o nome do scanner antes de validar</h1>"
-
     token = request.args.get("token")
     if not token:
         return render_template_string("<h1>❌ Token inválido</h1>")
@@ -110,7 +98,7 @@ def validate():
         else:
             status = "Válido"; symbol = "✅"; color = "#22c55e"; reason = "Bilhete válido. Entrada permitida"
             df.loc[df["token"] == token, "used"] = True; df.to_csv(GUEST_LIST_CSV_PATH, index=False)
-            log_scan(token, name, email, scanned_by)
+            log_scan(token, name, email, "scanner")
 
     logs_df = get_logs_by_token(token)
     log_items = ("<ul>" + "".join(f"<li>{r['timestamp']} — {r['scanned_by']}</li>" for _, r in logs_df.iterrows()) + "</ul>"
@@ -151,7 +139,7 @@ def validate():
         reason=reason,
         name=name,
         email=email,
-        scanned_by=scanned_by,
+        scanned_by="scanner",
         log_html=log_items,
     )
 
