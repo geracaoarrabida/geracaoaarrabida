@@ -12,19 +12,70 @@ app = Flask(__name__)
 def home():
     scanned_by = request.cookies.get("scanner_name")
     if not scanned_by:
-        return '''
+        return render_template_string('''
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <title>Welcome</title>
+            <style>
+                body { font-family: sans-serif; padding: 20px; max-width: 500px; margin: auto; }
+                input, button { font-size: 18px; padding: 10px; width: 100%; margin-top: 10px; }
+            </style>
+        </head>
+        <body>
             <h1>👋 Welcome</h1>
             <p>Please enter your name to start scanning tickets:</p>
             <form action="/set_name" method="POST">
                 <input type="text" name="name" placeholder="Your name" required>
                 <button type="submit">Start</button>
             </form>
-        '''
-    return f'''
+        </body>
+        </html>
+        ''')
+
+    return render_template_string(f'''
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Scanner</title>
+        <script src="https://unpkg.com/html5-qrcode"></script>
+        <style>
+            body {{ font-family: sans-serif; padding: 20px; max-width: 600px; margin: auto; }}
+            #reader {{ width: 100%; margin-top: 20px; display: none; }}
+            button {{ font-size: 18px; padding: 10px; width: 100%; margin-top: 10px; }}
+        </style>
+    </head>
+    <body>
         <h1>✅ Welcome, {scanned_by}</h1>
-        <p>You can now validate tickets:</p>
-        <p>Scan URL like <code>/validate?token=YOUR_TOKEN</code></p>
-    '''
+        <p>You can now validate tickets by scanning:</p>
+        <button onclick="startScan()">📷 Scan Ticket</button>
+        <div id="reader"></div>
+
+        <script>
+            function startScan() {{
+                const reader = document.getElementById("reader");
+                reader.style.display = "block";
+                const html5QrCode = new Html5Qrcode("reader");
+
+                html5QrCode.start(
+                    {{ facingMode: "environment" }},
+                    {{ fps: 10, qrbox: 250 }},
+                    (decodedText, decodedResult) => {{
+                        html5QrCode.stop().then(() => {{
+                            window.location.href = "/validate?token=" + encodeURIComponent(decodedText);
+                        }}).catch(err => console.error("Stop failed", err));
+                    }},
+                    (errorMessage) => {{
+                        // Ignore scanning errors
+                    }}
+                ).catch(err => console.error("Start failed", err));
+            }}
+        </script>
+    </body>
+    </html>
+    ''')
 
 
 @app.route("/set_name", methods=["POST"])
@@ -33,6 +84,7 @@ def set_name():
     resp = make_response(redirect("/"))
     resp.set_cookie("scanner_name", name, max_age=60 * 60 * 24 * 30)  # 30 days
     return resp
+
 
 @app.route("/validate")
 def validate():
@@ -55,14 +107,14 @@ def validate():
 
         row = df[df["token"] == token].iloc[0]
 
-        if row["used"]:
+        if row.get("used", False):
             status = "<h1>❌ Invalid: Ticket already used</h1>"
         else:
             df.loc[df["token"] == token, "used"] = True
             df.to_csv(GUEST_LIST_CSV_PATH, index=False)
             status = "<h1>✅ Valid Ticket</h1>"
 
-        # Log scan
+        # Log the scan
         scan_entry = pd.DataFrame([{
             "timestamp": datetime.now().isoformat(timespec='seconds'),
             "token": token,
@@ -76,7 +128,7 @@ def validate():
         else:
             scan_entry.to_csv(SCAN_LOG_PATH, index=False)
 
-        # Show recent history
+        # Recent scan history
         try:
             history = pd.read_csv(SCAN_LOG_PATH).tail(10)
             history_html = history.to_html(index=False)
@@ -85,18 +137,20 @@ def validate():
 
         return render_template_string(f"""
             {status}
-            <p>Name: {row['name']}</p>
-            <p>Email: {row['email']}</p>
+            <p><strong>Name:</strong> {row['name']}</p>
+            <p><strong>Email:</strong> {row['email']}</p>
             <p><strong>Scanned by:</strong> {scanned_by}</p>
             <hr>
             <h2>📜 Scan History (last 10)</h2>
             {history_html}
+            <p><a href="/">← Back to Scanner</a></p>
         """)
 
     except Exception as e:
         print("❌ Exception in /validate route:")
         traceback.print_exc()
         return render_template_string(f"<h1>🚨 Internal Error</h1><pre>{str(e)}</pre>")
+
 
 if __name__ == "__main__":
     app.run(debug=True)
